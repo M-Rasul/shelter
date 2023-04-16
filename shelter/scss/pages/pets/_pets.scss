@@ -1,0 +1,42 @@
+.pets__pets h2 {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.layout-4_pets {
+    margin-top: 30px;
+}
+.layout-4_pets .card {
+    margin-top: 30px;
+}
+.pets__pets .layout-5 {
+    max-width: 340px;
+    margin: 45px auto 0 auto;
+}
+.pets__pets .layout-5 button {
+    padding: 0;
+    width: 52px;
+    height: 52px;
+    font-weight: bold;
+}
+@media (max-width: 990px) {
+    .pets__pets .layout-5 {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 740px) {
+    .layout-4_pets {
+        margin-top: 12px;
+    }
+    .layout-4_pets .card {
+        margin-top: 30px;
+    }
+    .pets__pets {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

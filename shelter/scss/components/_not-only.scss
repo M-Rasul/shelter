@@ -1,0 +1,69 @@
+.not-only {
+    background-image: url("../../assets/img/notOnly/start-screen-background.png");
+    background-size: cover;
+    padding-top: 30px;
+}
+.not-only__wrapper {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.not-only__content h1 {
+    margin-right: 150px;
+}
+.not-only__text {
+    margin-top: 42px;
+    margin-right: 0;
+}
+.not-only__button {
+    margin-top: 42px;
+}
+.not-only__image img {
+    max-width: 698px;
+}
+@media (max-width: 990px) {
+    .not-only__wrapper {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .not-only__content {
+        max-width: 460px;
+        display: flex;
+        flex-direction: column;
+    }
+    .not-only__image img {
+        max-width: 569px;
+        margin-top: 100px;
+    }
+    .not-only__image {
+        margin-left: 169px;
+    }
+    .not-only__content button {
+        align-self: center;
+    }
+}
+@media (max-width: 740px) {
+    .not-only__content {
+        max-width: 300px;
+        align-items: center;
+    }
+    .not-only__content h1 {
+        margin-right: 0;
+        text-align: center;
+        max-width: 200px;
+    }
+    .not-only__text {
+        text-align: center;
+    }
+    .not-only__image img {
+        max-width: 260px;
+        margin-top: 105px;
+    }
+    .not-only__image {
+        margin-left: 50px;
+    }
+}

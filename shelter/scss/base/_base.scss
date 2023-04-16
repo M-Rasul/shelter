@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('../../assets/fonts/georgia.woff') format('woff'), url('../../assets/fonts/georgia.woff2') format('woff2');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Georgia';
+}
+
+.button {
+    font-family: 'Georgia';
+    border: none;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: $color-dark-3xl;
+    padding: 15px 45px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button_colored {
+    background: $color-primary;
+    border: 2px solid $color-primary;
+}
+.button_colored:hover {
+    background: $color-primary-light;
+    border: 2px solid $color-primary-light;
+}
+.button_border {
+    font-family: "Georgia";
+    background: transparent;
+    border: 2px solid $color-primary;
+}
+.button_border:hover {
+    background: $color-primary-light;
+    border: 2px solid $color-primary-light;
+}
+.button_rounded {
+    padding: 17px 19px;
+}
+.button_inactive {
+    background-color: transparent;
+    border: 2px solid $color-dark-s;
+    color: $color-dark-s;
+}
+
+.header__logo {
+    font-size: 32px;
+    color: $color-primary;
+}
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: $color-light-xl;
+}
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: $color-dark-l;
+}
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: $color-dark-l;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: $color-dark-xl;
+}
+.not-only__text {
+    color: $color-dark-s;
+}
+.text_lighter {
+    color: $color-dark-l;
+}
+.text_special {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: $color-dark-l;
+}
+.extra {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-dark-m;
+}
+@media (max-width: 740px) {
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .text_special {
+        font-size: 15px;
+    }
+}

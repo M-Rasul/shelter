@@ -1,0 +1,22 @@
+.header__pets {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo_pets {
+    color: $color-dark-l;
+}
+.text_pets {
+    color: $color-dark-3xl;
+    margin-left: 4px;
+}
+.item_pets {
+    color: $color-dark-l;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.item_pets:hover {
+    color: $color-dark-3xl;
+}
+.item__pets_active {
+    color: $color-dark-3xl;
+}

@@ -1,0 +1,103 @@
+.help {
+    padding: 80px 127px 100px 127px;
+}
+.help__wrapper h2 {
+    max-width: 315px;
+    margin: 0 auto;
+    text-align: center;
+}
+.help__layout {
+    max-width: 1026px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.help h3 {
+    font-family: 'Georgia';
+    margin-top: 30px;
+}
+.help__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-top: 60px;
+}
+.help__item:nth-child(6) {
+    margin-left: 70px;
+}
+.help__item:last-child {
+    margin-right: 100px;
+}
+.svg {
+    width: 60px;
+    height: 60px;
+}
+.svg_food {
+    background-image: url("../../assets/svg/help/icon-pet-food.svg");
+}
+.svg_transportation {
+    background-image: url("../../assets/svg/help/icon-transportation.svg");
+}
+.svg_toys {
+    background-image: url("../../assets/svg/help/icon-toys.svg");
+}
+.svg_bowls {
+    background-image: url("../../assets/svg/help/icon-bowls-and-cups.svg");
+}
+.svg_shampoos {
+    background-image: url("../../assets/svg/help/icon-shampoos.svg");
+}
+.svg_vitamins {
+    background-image: url("../../assets/svg/help/icon-vitamins.svg");
+}
+.svg_medicines {
+    background-image: url("../../assets/svg/help/icon-medicines.svg");
+}
+.svg_collars {
+    background-image: url("../../assets/svg/help/icon-collars-leashes.svg");
+}
+.svg_sleep {
+    background-image: url("../../assets/svg/help/icon-sleeping-area.svg");
+}
+@media (max-width: 990px) {
+    .help {
+        padding: 80px 69px 100px 69px;
+    }
+    .help__wrapper h2 {
+        max-width: 308px;
+    }
+    .main-layout {
+        display: flex;
+        justify-content: space-between;
+        max-width: 630px;
+    }
+    .help__item {
+        width: 30%;
+    }
+    .help__item:nth-child(6) {
+        margin-left: 0;
+    }
+    .help__item:last-child {
+        margin-right: 0;
+    }
+}
+@media (max-width: 740px) {
+    .help {
+        padding: 42px 15px
+    }
+    .help__wrapper h2 {
+        max-width: 230px;
+    }
+    .help__layout {
+        max-width: 290px;
+        margin-top: 12px;
+    }
+    .help h3 {
+        margin-top: 20px;
+    }
+    .help__item {
+        margin-top: 30px;
+        width: 130px;
+    }
+}

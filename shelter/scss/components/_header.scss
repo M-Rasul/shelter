@@ -1,0 +1,36 @@
+.header__text {
+    color: $color-light-xl;
+}
+a {
+    text-decoration: none;
+}
+.item {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: $color-dark-s;
+    transition-duration: 0.5s;
+}
+.item:hover {
+    color: $color-light-s;
+}
+.item_active {
+    color: $color-light-s;
+    border-bottom: 3px solid $color-primary;
+    padding-bottom: 5px;
+}
+.burger {
+    width: 30px;
+    height: 22px;
+    display: none;
+}
+@media (max-width: 740px) {
+    .burger {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+}
